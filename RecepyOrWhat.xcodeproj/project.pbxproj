@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		063006111A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0630060F1A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodeld */; };
+		063006141A0F909F00E08AC1 /* RecepyDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 063006131A0F909F00E08AC1 /* RecepyDetailsViewController.m */; };
+		0630061B1A0FB99900E08AC1 /* RecepyBasicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0630061A1A0FB99900E08AC1 /* RecepyBasicInfo.m */; };
+		0630061E1A0FB99A00E08AC1 /* RecepyDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 0630061D1A0FB99A00E08AC1 /* RecepyDetails.m */; };
+		063006571A0FBDCE00E08AC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 063006561A0FBDCE00E08AC1 /* CoreData.framework */; };
+		063006621A1008E900E08AC1 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 063006611A1008E900E08AC1 /* CoreDataHelper.m */; };
+		0638A61A1A0EDBC6003A2E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A6191A0EDBC6003A2E28 /* main.m */; };
+		0638A61D1A0EDBC6003A2E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A61C1A0EDBC6003A2E28 /* AppDelegate.m */; };
+		0638A6201A0EDBC6003A2E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A61F1A0EDBC6003A2E28 /* ViewController.m */; };
+		0638A6251A0EDBC6003A2E28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0638A6241A0EDBC6003A2E28 /* Images.xcassets */; };
+		0638A6341A0EDBC7003A2E28 /* RecepyOrWhatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A6331A0EDBC7003A2E28 /* RecepyOrWhatTests.m */; };
+		0638A6401A0EDD6B003A2E28 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A63F1A0EDD6B003A2E28 /* SWRevealViewController.m */; };
+		0638A6431A0EE2FF003A2E28 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A6421A0EE2FF003A2E28 /* NavigationViewController.m */; };
+		0638A6461A0EF3FE003A2E28 /* AllRecepiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A6451A0EF3FE003A2E28 /* AllRecepiesViewController.m */; };
+		0638A6721A0F0BCA003A2E28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0638A6701A0F0BCA003A2E28 /* LaunchScreen.xib */; };
+		0638A6731A0F0BCA003A2E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0638A6711A0F0BCA003A2E28 /* Main.storyboard */; };
+		0638A67C1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0638A67B1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0638A62E1A0EDBC6003A2E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0638A60C1A0EDBC6003A2E28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0638A6131A0EDBC6003A2E28;
+			remoteInfo = RecepyOrWhat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063006101A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecepyOrWhat.xcdatamodel; sourceTree = "<group>"; };
+		063006121A0F909F00E08AC1 /* RecepyDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecepyDetailsViewController.h; sourceTree = "<group>"; };
+		063006131A0F909F00E08AC1 /* RecepyDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecepyDetailsViewController.m; sourceTree = "<group>"; };
+		063006191A0FB99900E08AC1 /* RecepyBasicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecepyBasicInfo.h; path = RecepyOrWhat/RecepyBasicInfo.h; sourceTree = "<group>"; };
+		0630061A1A0FB99900E08AC1 /* RecepyBasicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecepyBasicInfo.m; path = RecepyOrWhat/RecepyBasicInfo.m; sourceTree = "<group>"; };
+		0630061C1A0FB99A00E08AC1 /* RecepyDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecepyDetails.h; path = RecepyOrWhat/RecepyDetails.h; sourceTree = "<group>"; };
+		0630061D1A0FB99A00E08AC1 /* RecepyDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecepyDetails.m; path = RecepyOrWhat/RecepyDetails.m; sourceTree = "<group>"; };
+		063006561A0FBDCE00E08AC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		063006601A1008E900E08AC1 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataHelper.h; path = RecepyOrWhat/CoreDataHelper.h; sourceTree = "<group>"; };
+		063006611A1008E900E08AC1 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataHelper.m; path = RecepyOrWhat/CoreDataHelper.m; sourceTree = "<group>"; };
+		0638A6141A0EDBC6003A2E28 /* RecepyOrWhat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecepyOrWhat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0638A6181A0EDBC6003A2E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0638A6191A0EDBC6003A2E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0638A61B1A0EDBC6003A2E28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0638A61C1A0EDBC6003A2E28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0638A61E1A0EDBC6003A2E28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0638A61F1A0EDBC6003A2E28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0638A6241A0EDBC6003A2E28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0638A62D1A0EDBC6003A2E28 /* RecepyOrWhatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecepyOrWhatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0638A6321A0EDBC7003A2E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0638A6331A0EDBC7003A2E28 /* RecepyOrWhatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecepyOrWhatTests.m; sourceTree = "<group>"; };
+		0638A63E1A0EDD6B003A2E28 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0638A63F1A0EDD6B003A2E28 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0638A6411A0EE2FF003A2E28 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		0638A6421A0EE2FF003A2E28 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		0638A6441A0EF3FE003A2E28 /* AllRecepiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AllRecepiesViewController.h; path = ../AllRecepiesViewController.h; sourceTree = "<group>"; };
+		0638A6451A0EF3FE003A2E28 /* AllRecepiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AllRecepiesViewController.m; path = ../AllRecepiesViewController.m; sourceTree = "<group>"; };
+		0638A6701A0F0BCA003A2E28 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		0638A6711A0F0BCA003A2E28 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0638A67A1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllRecepiesAppDelegate.h; sourceTree = "<group>"; };
+		0638A67B1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllRecepiesAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0638A6111A0EDBC6003A2E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063006571A0FBDCE00E08AC1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638A62A1A0EDBC6003A2E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0630065F1A10080300E08AC1 /* DBHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				0630060F1A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodeld */,
+				0630061C1A0FB99A00E08AC1 /* RecepyDetails.h */,
+				0630061D1A0FB99A00E08AC1 /* RecepyDetails.m */,
+				063006191A0FB99900E08AC1 /* RecepyBasicInfo.h */,
+				0630061A1A0FB99900E08AC1 /* RecepyBasicInfo.m */,
+				063006601A1008E900E08AC1 /* CoreDataHelper.h */,
+				063006611A1008E900E08AC1 /* CoreDataHelper.m */,
+			);
+			name = DBHelpers;
+			sourceTree = "<group>";
+		};
+		0638A60B1A0EDBC6003A2E28 = {
+			isa = PBXGroup;
+			children = (
+				0630065F1A10080300E08AC1 /* DBHelpers */,
+				063006561A0FBDCE00E08AC1 /* CoreData.framework */,
+				0638A67A1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.h */,
+				0638A67B1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.m */,
+				0638A6161A0EDBC6003A2E28 /* RecepyOrWhat */,
+				0638A6301A0EDBC6003A2E28 /* RecepyOrWhatTests */,
+				0638A6151A0EDBC6003A2E28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0638A6151A0EDBC6003A2E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0638A6141A0EDBC6003A2E28 /* RecepyOrWhat.app */,
+				0638A62D1A0EDBC6003A2E28 /* RecepyOrWhatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0638A6161A0EDBC6003A2E28 /* RecepyOrWhat */ = {
+			isa = PBXGroup;
+			children = (
+				0638A6701A0F0BCA003A2E28 /* LaunchScreen.xib */,
+				0638A6711A0F0BCA003A2E28 /* Main.storyboard */,
+				0638A61B1A0EDBC6003A2E28 /* AppDelegate.h */,
+				0638A61C1A0EDBC6003A2E28 /* AppDelegate.m */,
+				0638A61E1A0EDBC6003A2E28 /* ViewController.h */,
+				0638A61F1A0EDBC6003A2E28 /* ViewController.m */,
+				0638A6411A0EE2FF003A2E28 /* NavigationViewController.h */,
+				0638A6421A0EE2FF003A2E28 /* NavigationViewController.m */,
+				0638A6441A0EF3FE003A2E28 /* AllRecepiesViewController.h */,
+				0638A6451A0EF3FE003A2E28 /* AllRecepiesViewController.m */,
+				063006121A0F909F00E08AC1 /* RecepyDetailsViewController.h */,
+				063006131A0F909F00E08AC1 /* RecepyDetailsViewController.m */,
+				0638A6241A0EDBC6003A2E28 /* Images.xcassets */,
+				0638A6171A0EDBC6003A2E28 /* Supporting Files */,
+			);
+			path = RecepyOrWhat;
+			sourceTree = "<group>";
+		};
+		0638A6171A0EDBC6003A2E28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0638A63D1A0EDD6B003A2E28 /* SlideOutMenuFiles */,
+				0638A6181A0EDBC6003A2E28 /* Info.plist */,
+				0638A6191A0EDBC6003A2E28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0638A6301A0EDBC6003A2E28 /* RecepyOrWhatTests */ = {
+			isa = PBXGroup;
+			children = (
+				0638A6331A0EDBC7003A2E28 /* RecepyOrWhatTests.m */,
+				0638A6311A0EDBC7003A2E28 /* Supporting Files */,
+			);
+			path = RecepyOrWhatTests;
+			sourceTree = "<group>";
+		};
+		0638A6311A0EDBC7003A2E28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0638A6321A0EDBC7003A2E28 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0638A63D1A0EDD6B003A2E28 /* SlideOutMenuFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0638A63E1A0EDD6B003A2E28 /* SWRevealViewController.h */,
+				0638A63F1A0EDD6B003A2E28 /* SWRevealViewController.m */,
+			);
+			name = SlideOutMenuFiles;
+			path = ../../../../../Downloads/SlideOutMenu/SlideOutMenuFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0638A6131A0EDBC6003A2E28 /* RecepyOrWhat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0638A6371A0EDBC7003A2E28 /* Build configuration list for PBXNativeTarget "RecepyOrWhat" */;
+			buildPhases = (
+				0638A6101A0EDBC6003A2E28 /* Sources */,
+				0638A6111A0EDBC6003A2E28 /* Frameworks */,
+				0638A6121A0EDBC6003A2E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecepyOrWhat;
+			productName = RecepyOrWhat;
+			productReference = 0638A6141A0EDBC6003A2E28 /* RecepyOrWhat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0638A62C1A0EDBC6003A2E28 /* RecepyOrWhatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0638A63A1A0EDBC7003A2E28 /* Build configuration list for PBXNativeTarget "RecepyOrWhatTests" */;
+			buildPhases = (
+				0638A6291A0EDBC6003A2E28 /* Sources */,
+				0638A62A1A0EDBC6003A2E28 /* Frameworks */,
+				0638A62B1A0EDBC6003A2E28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0638A62F1A0EDBC6003A2E28 /* PBXTargetDependency */,
+			);
+			name = RecepyOrWhatTests;
+			productName = RecepyOrWhatTests;
+			productReference = 0638A62D1A0EDBC6003A2E28 /* RecepyOrWhatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0638A60C1A0EDBC6003A2E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = telerik;
+				TargetAttributes = {
+					0638A6131A0EDBC6003A2E28 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					0638A62C1A0EDBC6003A2E28 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0638A6131A0EDBC6003A2E28;
+					};
+				};
+			};
+			buildConfigurationList = 0638A60F1A0EDBC6003A2E28 /* Build configuration list for PBXProject "RecepyOrWhat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0638A60B1A0EDBC6003A2E28;
+			productRefGroup = 0638A6151A0EDBC6003A2E28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0638A6131A0EDBC6003A2E28 /* RecepyOrWhat */,
+				0638A62C1A0EDBC6003A2E28 /* RecepyOrWhatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0638A6121A0EDBC6003A2E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0638A6721A0F0BCA003A2E28 /* LaunchScreen.xib in Resources */,
+				0638A6731A0F0BCA003A2E28 /* Main.storyboard in Resources */,
+				0638A6251A0EDBC6003A2E28 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638A62B1A0EDBC6003A2E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0638A6101A0EDBC6003A2E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0638A67C1A0F5E5F003A2E28 /* AllRecepiesAppDelegate.m in Sources */,
+				0638A6461A0EF3FE003A2E28 /* AllRecepiesViewController.m in Sources */,
+				0638A6201A0EDBC6003A2E28 /* ViewController.m in Sources */,
+				0630061E1A0FB99A00E08AC1 /* RecepyDetails.m in Sources */,
+				0630061B1A0FB99900E08AC1 /* RecepyBasicInfo.m in Sources */,
+				063006111A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodeld in Sources */,
+				0638A61D1A0EDBC6003A2E28 /* AppDelegate.m in Sources */,
+				0638A6431A0EE2FF003A2E28 /* NavigationViewController.m in Sources */,
+				0638A61A1A0EDBC6003A2E28 /* main.m in Sources */,
+				063006621A1008E900E08AC1 /* CoreDataHelper.m in Sources */,
+				0638A6401A0EDD6B003A2E28 /* SWRevealViewController.m in Sources */,
+				063006141A0F909F00E08AC1 /* RecepyDetailsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0638A6291A0EDBC6003A2E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0638A6341A0EDBC7003A2E28 /* RecepyOrWhatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0638A62F1A0EDBC6003A2E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0638A6131A0EDBC6003A2E28 /* RecepyOrWhat */;
+			targetProxy = 0638A62E1A0EDBC6003A2E28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0638A6351A0EDBC7003A2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0638A6361A0EDBC7003A2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0638A6381A0EDBC7003A2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecepyOrWhat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0638A6391A0EDBC7003A2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RecepyOrWhat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0638A63B1A0EDBC7003A2E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecepyOrWhatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecepyOrWhat.app/RecepyOrWhat";
+			};
+			name = Debug;
+		};
+		0638A63C1A0EDBC7003A2E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecepyOrWhatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecepyOrWhat.app/RecepyOrWhat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0638A60F1A0EDBC6003A2E28 /* Build configuration list for PBXProject "RecepyOrWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638A6351A0EDBC7003A2E28 /* Debug */,
+				0638A6361A0EDBC7003A2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0638A6371A0EDBC7003A2E28 /* Build configuration list for PBXNativeTarget "RecepyOrWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638A6381A0EDBC7003A2E28 /* Debug */,
+				0638A6391A0EDBC7003A2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0638A63A1A0EDBC7003A2E28 /* Build configuration list for PBXNativeTarget "RecepyOrWhatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0638A63B1A0EDBC7003A2E28 /* Debug */,
+				0638A63C1A0EDBC7003A2E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0630060F1A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				063006101A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodel */,
+			);
+			currentVersion = 063006101A0F8E9000E08AC1 /* RecepyOrWhat.xcdatamodel */;
+			name = RecepyOrWhat.xcdatamodeld;
+			path = RecepyOrWhat/RecepyOrWhat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0638A60C1A0EDBC6003A2E28 /* Project object */;
+}
